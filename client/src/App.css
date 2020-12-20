@@ -1,0 +1,61 @@
+.navbar {
+  width: 100%;
+  background: black;
+  color: white;
+}
+.container {
+  padding: 0 10rem;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content a {
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem;
+}
+.nav-content a:hover {
+  color: red;
+}
+.main-screen {
+  padding: 1rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 100vh;
+}
+.login-screen {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen form {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+}
+.login-screen form input {
+  padding: 1rem;
+}
+.dashboard {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+.add-todo {
+  display: flex;
+  flex-direction: column;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
